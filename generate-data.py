@@ -33,7 +33,7 @@ def main(num_planets, output_file):
     positions = np.random.uniform(-150.0, 150.0, (num_planets, 3))
     velocities = np.random.uniform(-1.5, 1.5, (num_planets, 3))
     masses = np.random.uniform(0.01, 10.0, num_planets)
-    write_data(positions, velocities, masses, output_file)
+    write_data(positions, velocities, masses, output_file) # Just adding a comment.
 
 
 if __name__ == "__main__":
