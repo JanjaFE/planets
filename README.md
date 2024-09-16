@@ -43,7 +43,7 @@ px,py,pz,vx,vy,vz,mass
 39.09,53.12,-59.54,-0.54,0.56,0.07,8.98
 ```
 
-Then we can simulate their motion (in this case for 20 steps):
+Then we can simulate their motion (in this case for 20 steps or more):
 ```console
 $ python simulate.py --num-steps 20 \
                      --input-file initial.csv \
